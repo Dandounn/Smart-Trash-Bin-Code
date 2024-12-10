@@ -18,12 +18,12 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2); // Defining LCD
 
-const char* ssid = "AndroidAP";  // WiFi network SSID
-const char* password = "yqhj3542";   // WiFi network password
+const char* ssid = "";  // WiFi network SSID
+const char* password = "";   // WiFi network password
 
 WiFiClient client;
-unsigned long channel = 2776142;       // Thingspeak channel number
-const char* API = "U0YWRM73R1Z7SX9V";  // Channel write API
+unsigned long channel = ;       // Thingspeak channel number
+const char* API = "";  // Channel write API
 
 DHT dht(tempPin, DHTTYPE); // Specifying temperature model
 unsigned long lastTime = 0;
